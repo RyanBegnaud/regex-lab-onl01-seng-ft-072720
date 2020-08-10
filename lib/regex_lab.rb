@@ -18,7 +18,6 @@ end
 def words_five_letters_long(text)
   text = text.split
   text.grep (/\w{5}\s/)
-  binding.pry
 end
  
 
